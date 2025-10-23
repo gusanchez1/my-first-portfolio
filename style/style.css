@@ -32,28 +32,35 @@ body {
 
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 2% 5%;
+    gap: 1rem;
 }
 
 header h1 {
     font-family: var(--font-oleo);
-    font-size: 32px;
+    font-size: 2rem;
     color: white;
+    flex-shrink: 1;
 }
 
 nav {
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    gap: 3rem;
     align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
 }
 
 .nav {
     color: #C1C1C1;
     transition-duration: 0.3s;
     font-family: var(--font-montserrat);
-    font-size: 18px;
+    font-size: 1rem;
+    flex-shrink: 1;
 }
 
 .nav:hover {
@@ -61,10 +68,11 @@ nav {
 }
 
 .contact {
-    padding: 10px;
+    padding: 0.5em 1.5em;
     border: 1px solid var(--border-color);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: white;
+    flex-shrink: 1;
 }
 
 .contact:hover {
