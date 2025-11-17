@@ -125,7 +125,7 @@ h3#role {
 }
 
 h3.bio {
-    margin: -5px 0px 30px 0px;
+    margin: 0px 0px 10px 0px;
     font-family: var(--font-inter);
     font-size: 14px;
     font-weight: 600;
